@@ -1,0 +1,195 @@
+{
+  "design_id": "design_dd032720",
+  "config": {
+    "qubits": 12,
+    "lattice_type": "heavy_hex",
+    "dimensions": null,
+    "freq_range": [
+      4.5,
+      5.5
+    ],
+    "notes": "12 qubits heavy hex"
+  },
+  "coordinates": [
+    {
+      "id": "q0",
+      "index": 0,
+      "x": 1.7812,
+      "y": -2.045,
+      "role": "data",
+      "degree": 4,
+      "frequency_ghz": 4.5
+    },
+    {
+      "id": "q1",
+      "index": 1,
+      "x": 0.713,
+      "y": 0.1969,
+      "role": "data",
+      "degree": 4,
+      "frequency_ghz": 5.5
+    },
+    {
+      "id": "q2",
+      "index": 2,
+      "x": -0.2322,
+      "y": 2.4538,
+      "role": "data",
+      "degree": 3,
+      "frequency_ghz": 4.5
+    },
+    {
+      "id": "q3",
+      "index": 3,
+      "x": -0.6537,
+      "y": 4.8354,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 5.5
+    },
+    {
+      "id": "q4",
+      "index": 4,
+      "x": -1.1438,
+      "y": 7.1593,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 4.5
+    },
+    {
+      "id": "q5",
+      "index": 5,
+      "x": -1.6489,
+      "y": 9.4551,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 5.5
+    },
+    {
+      "id": "q6",
+      "index": 6,
+      "x": -2.1501,
+      "y": 11.7083,
+      "role": "data",
+      "degree": 1,
+      "frequency_ghz": 4.5
+    },
+    {
+      "id": "q7",
+      "index": 7,
+      "x": 3.0506,
+      "y": -4.1042,
+      "role": "data",
+      "degree": 3,
+      "frequency_ghz": 5.5
+    },
+    {
+      "id": "q8",
+      "index": 8,
+      "x": 4.7381,
+      "y": -5.734,
+      "role": "data",
+      "degree": 1,
+      "frequency_ghz": 4.5
+    },
+    {
+      "id": "b_q0_q1",
+      "index": 9,
+      "x": 3.0095,
+      "y": -0.0892,
+      "role": "bridge",
+      "degree": 2,
+      "frequency_ghz": 4.9894
+    },
+    {
+      "id": "b_q0_q7",
+      "index": 10,
+      "x": 0.7846,
+      "y": -4.1653,
+      "role": "bridge",
+      "degree": 2,
+      "frequency_ghz": 4.9894
+    },
+    {
+      "id": "b_q1_q2",
+      "index": 11,
+      "x": -1.5813,
+      "y": 0.6166,
+      "role": "bridge",
+      "degree": 2,
+      "frequency_ghz": 4.9894
+    }
+  ],
+  "edges": [
+    {
+      "source": "q0",
+      "target": "q1"
+    },
+    {
+      "source": "q0",
+      "target": "q7"
+    },
+    {
+      "source": "q0",
+      "target": "b_q0_q1"
+    },
+    {
+      "source": "q0",
+      "target": "b_q0_q7"
+    },
+    {
+      "source": "q1",
+      "target": "q2"
+    },
+    {
+      "source": "q1",
+      "target": "b_q0_q1"
+    },
+    {
+      "source": "q1",
+      "target": "b_q1_q2"
+    },
+    {
+      "source": "q2",
+      "target": "q3"
+    },
+    {
+      "source": "q2",
+      "target": "b_q1_q2"
+    },
+    {
+      "source": "q3",
+      "target": "q4"
+    },
+    {
+      "source": "q4",
+      "target": "q5"
+    },
+    {
+      "source": "q5",
+      "target": "q6"
+    },
+    {
+      "source": "q7",
+      "target": "q8"
+    },
+    {
+      "source": "q7",
+      "target": "b_q0_q7"
+    }
+  ],
+  "frequencies": {
+    "q0": 4.5,
+    "q1": 5.5,
+    "q2": 4.5,
+    "q7": 5.5,
+    "q3": 5.5,
+    "q4": 4.5,
+    "q5": 5.5,
+    "b_q0_q1": 4.9894,
+    "b_q0_q7": 4.9894,
+    "b_q1_q2": 4.9894,
+    "q6": 4.5,
+    "q8": 4.5
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "design_id": "design_c7e164d6",
+  "config": {
+    "qubits": 9,
+    "lattice_type": "heavy_hex",
+    "dimensions": null,
+    "freq_range": [
+      4.6,
+      5.2
+    ],
+    "notes": "9 qubits heavy-hex 4.6 to 5.2 GHz"
+  },
+  "coordinates": [
+    {
+      "id": "q0",
+      "index": 0,
+      "x": 0.3782,
+      "y": -3.2403,
+      "role": "data",
+      "degree": 3,
+      "frequency_ghz": 4.6
+    },
+    {
+      "id": "q1",
+      "index": 1,
+      "x": 0.9218,
+      "y": -0.9465,
+      "role": "data",
+      "degree": 3,
+      "frequency_ghz": 5.2
+    },
+    {
+      "id": "q2",
+      "index": 2,
+      "x": 0.5612,
+      "y": 1.4189,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 4.6
+    },
+    {
+      "id": "q3",
+      "index": 3,
+      "x": 0.2463,
+      "y": 3.7659,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 5.2
+    },
+    {
+      "id": "q4",
+      "index": 4,
+      "x": -0.0561,
+      "y": 6.104,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 4.6
+    },
+    {
+      "id": "q5",
+      "index": 5,
+      "x": -0.3526,
+      "y": 8.4289,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 5.2
+    },
+    {
+      "id": "q6",
+      "index": 6,
+      "x": -0.6428,
+      "y": 10.7164,
+      "role": "data",
+      "degree": 1,
+      "frequency_ghz": 4.6
+    },
+    {
+      "id": "b_q0_q1",
+      "index": 7,
+      "x": 2.5597,
+      "y": -2.5648,
+      "role": "bridge",
+      "degree": 2,
+      "frequency_ghz": 4.8914
+    },
+    {
+      "id": "b_q0_q7",
+      "index": 8,
+      "x": -0.887,
+      "y": -5.2007,
+      "role": "bridge",
+      "degree": 1,
+      "frequency_ghz": 5.2
+    }
+  ],
+  "edges": [
+    {
+      "source": "q0",
+      "target": "q1"
+    },
+    {
+      "source": "q0",
+      "target": "b_q0_q1"
+    },
+    {
+      "source": "q0",
+      "target": "b_q0_q7"
+    },
+    {
+      "source": "q1",
+      "target": "q2"
+    },
+    {
+      "source": "q1",
+      "target": "b_q0_q1"
+    },
+    {
+      "source": "q2",
+      "target": "q3"
+    },
+    {
+      "source": "q3",
+      "target": "q4"
+    },
+    {
+      "source": "q4",
+      "target": "q5"
+    },
+    {
+      "source": "q5",
+      "target": "q6"
+    }
+  ],
+  "frequencies": {
+    "q0": 4.6,
+    "q1": 5.2,
+    "q2": 4.6,
+    "q3": 5.2,
+    "q4": 4.6,
+    "q5": 5.2,
+    "b_q0_q1": 4.8914,
+    "q6": 4.6,
+    "b_q0_q7": 5.2
+  }
+}

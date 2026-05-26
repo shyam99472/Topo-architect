@@ -1,0 +1,177 @@
+{
+  "design_id": "design_30304909",
+  "config": {
+    "qubits": 11,
+    "lattice_type": "heavy_hex",
+    "dimensions": null,
+    "freq_range": [
+      4.6,
+      5.2
+    ],
+    "notes": "11 qubits heavy-hex 4.6 to 5.2 GHz"
+  },
+  "coordinates": [
+    {
+      "id": "q0",
+      "index": 0,
+      "x": 1.9358,
+      "y": -1.8552,
+      "role": "data",
+      "degree": 4,
+      "frequency_ghz": 4.6
+    },
+    {
+      "id": "q1",
+      "index": 1,
+      "x": 0.7305,
+      "y": 0.2484,
+      "role": "data",
+      "degree": 3,
+      "frequency_ghz": 5.2
+    },
+    {
+      "id": "q2",
+      "index": 2,
+      "x": 0.108,
+      "y": 2.5803,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 4.6
+    },
+    {
+      "id": "q3",
+      "index": 3,
+      "x": -0.5703,
+      "y": 4.859,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 5.2
+    },
+    {
+      "id": "q4",
+      "index": 4,
+      "x": -1.2608,
+      "y": 7.1181,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 4.6
+    },
+    {
+      "id": "q5",
+      "index": 5,
+      "x": -1.9518,
+      "y": 9.36,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 5.2
+    },
+    {
+      "id": "q6",
+      "index": 6,
+      "x": -2.6333,
+      "y": 11.5638,
+      "role": "data",
+      "degree": 1,
+      "frequency_ghz": 4.6
+    },
+    {
+      "id": "q7",
+      "index": 7,
+      "x": 3.0247,
+      "y": -3.9988,
+      "role": "data",
+      "degree": 3,
+      "frequency_ghz": 5.2
+    },
+    {
+      "id": "q8",
+      "index": 8,
+      "x": 3.469,
+      "y": -6.299,
+      "role": "data",
+      "degree": 1,
+      "frequency_ghz": 4.6
+    },
+    {
+      "id": "b_q0_q1",
+      "index": 9,
+      "x": -0.3838,
+      "y": -1.7478,
+      "role": "bridge",
+      "degree": 2,
+      "frequency_ghz": 4.893
+    },
+    {
+      "id": "b_q0_q7",
+      "index": 10,
+      "x": 4.2571,
+      "y": -2.0905,
+      "role": "bridge",
+      "degree": 2,
+      "frequency_ghz": 4.893
+    }
+  ],
+  "edges": [
+    {
+      "source": "q0",
+      "target": "q1"
+    },
+    {
+      "source": "q0",
+      "target": "q7"
+    },
+    {
+      "source": "q0",
+      "target": "b_q0_q1"
+    },
+    {
+      "source": "q0",
+      "target": "b_q0_q7"
+    },
+    {
+      "source": "q1",
+      "target": "q2"
+    },
+    {
+      "source": "q1",
+      "target": "b_q0_q1"
+    },
+    {
+      "source": "q2",
+      "target": "q3"
+    },
+    {
+      "source": "q3",
+      "target": "q4"
+    },
+    {
+      "source": "q4",
+      "target": "q5"
+    },
+    {
+      "source": "q5",
+      "target": "q6"
+    },
+    {
+      "source": "q7",
+      "target": "q8"
+    },
+    {
+      "source": "q7",
+      "target": "b_q0_q7"
+    }
+  ],
+  "frequencies": {
+    "q0": 4.6,
+    "q1": 5.2,
+    "q7": 5.2,
+    "q2": 4.6,
+    "q3": 5.2,
+    "q4": 4.6,
+    "q5": 5.2,
+    "b_q0_q1": 4.893,
+    "b_q0_q7": 4.893,
+    "q6": 4.6,
+    "q8": 4.6
+  }
+}

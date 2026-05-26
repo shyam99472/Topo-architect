@@ -1,0 +1,131 @@
+{
+  "design_id": "design_328d5486",
+  "config": {
+    "qubits": 8,
+    "lattice_type": "heavy_hex",
+    "dimensions": null,
+    "freq_range": [
+      4.5,
+      5.5
+    ],
+    "notes": "8 qubits heavy hex"
+  },
+  "coordinates": [
+    {
+      "id": "q0",
+      "index": 0,
+      "x": 0.5,
+      "y": 0.0,
+      "role": "data",
+      "degree": 3,
+      "frequency_ghz": 4.5
+    },
+    {
+      "id": "q1",
+      "index": 1,
+      "x": 0.0,
+      "y": 0.866,
+      "role": "data",
+      "degree": 3,
+      "frequency_ghz": 5.5
+    },
+    {
+      "id": "q2",
+      "index": 2,
+      "x": 0.5,
+      "y": 1.7321,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 4.5
+    },
+    {
+      "id": "q3",
+      "index": 3,
+      "x": 0.0,
+      "y": 2.5981,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 5.5
+    },
+    {
+      "id": "q4",
+      "index": 4,
+      "x": 0.5,
+      "y": 3.4641,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 4.5
+    },
+    {
+      "id": "q5",
+      "index": 5,
+      "x": 0.0,
+      "y": 4.3301,
+      "role": "data",
+      "degree": 1,
+      "frequency_ghz": 5.5
+    },
+    {
+      "id": "b_q0_q1",
+      "index": 6,
+      "x": 0.25,
+      "y": 0.433,
+      "role": "bridge",
+      "degree": 2,
+      "frequency_ghz": 4.9839
+    },
+    {
+      "id": "b_q0_q7",
+      "index": 7,
+      "x": 1.0,
+      "y": 0.0,
+      "role": "bridge",
+      "degree": 1,
+      "frequency_ghz": 5.5
+    }
+  ],
+  "edges": [
+    {
+      "source": "q0",
+      "target": "q1"
+    },
+    {
+      "source": "q0",
+      "target": "b_q0_q1"
+    },
+    {
+      "source": "q0",
+      "target": "b_q0_q7"
+    },
+    {
+      "source": "q1",
+      "target": "q2"
+    },
+    {
+      "source": "q1",
+      "target": "b_q0_q1"
+    },
+    {
+      "source": "q2",
+      "target": "q3"
+    },
+    {
+      "source": "q3",
+      "target": "q4"
+    },
+    {
+      "source": "q4",
+      "target": "q5"
+    }
+  ],
+  "frequencies": {
+    "q0": 4.5,
+    "q1": 5.5,
+    "q2": 4.5,
+    "q3": 5.5,
+    "q4": 4.5,
+    "b_q0_q1": 4.9839,
+    "q5": 5.5,
+    "b_q0_q7": 5.5
+  }
+}

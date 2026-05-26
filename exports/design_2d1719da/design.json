@@ -1,0 +1,93 @@
+{
+  "design_id": "design_2d1719da",
+  "config": {
+    "qubits": 5,
+    "lattice_type": "heavy_hex",
+    "dimensions": null,
+    "freq_range": [
+      4.6,
+      5.2
+    ],
+    "notes": "5 qubits heavy-hex 4.6 to 5.2 GHz"
+  },
+  "coordinates": [
+    {
+      "id": "q0",
+      "index": 0,
+      "x": 1.2487,
+      "y": -1.5379,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 5.2
+    },
+    {
+      "id": "q1",
+      "index": 1,
+      "x": 0.2204,
+      "y": 0.5259,
+      "role": "data",
+      "degree": 3,
+      "frequency_ghz": 4.6
+    },
+    {
+      "id": "q2",
+      "index": 2,
+      "x": 0.3365,
+      "y": 2.8819,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 5.2
+    },
+    {
+      "id": "q3",
+      "index": 3,
+      "x": 0.45,
+      "y": 5.1862,
+      "role": "data",
+      "degree": 1,
+      "frequency_ghz": 4.6
+    },
+    {
+      "id": "b_q0_q1",
+      "index": 4,
+      "x": -1.0057,
+      "y": -1.4269,
+      "role": "bridge",
+      "degree": 2,
+      "frequency_ghz": 4.8903
+    }
+  ],
+  "edges": [
+    {
+      "source": "q0",
+      "target": "q1"
+    },
+    {
+      "source": "q0",
+      "target": "b_q0_q1"
+    },
+    {
+      "source": "q0",
+      "target": "q2"
+    },
+    {
+      "source": "q1",
+      "target": "q2"
+    },
+    {
+      "source": "q1",
+      "target": "b_q0_q1"
+    },
+    {
+      "source": "q2",
+      "target": "q3"
+    }
+  ],
+  "frequencies": {
+    "q1": 4.6,
+    "q0": 5.2,
+    "q2": 5.2,
+    "b_q0_q1": 4.8903,
+    "q3": 4.6
+  }
+}

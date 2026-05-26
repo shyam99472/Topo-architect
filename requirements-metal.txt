@@ -1,0 +1,7 @@
+# Full stack for Qiskit Metal — Python 3.10 ONLY (Windows)
+# Install: py -3.10 -m venv .venv  then  pip install -r requirements-metal.txt
+-r requirements-core.txt
+qiskit-metal==0.1.2
+numpy>=1.26.4,<2.0
+scipy==1.12.0
+matplotlib==3.8.3

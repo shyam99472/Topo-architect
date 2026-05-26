@@ -1,0 +1,241 @@
+{
+  "design_id": "design_63bca31f",
+  "config": {
+    "qubits": 15,
+    "lattice_type": "heavy_hex",
+    "dimensions": null,
+    "freq_range": [
+      4.6,
+      5.2
+    ],
+    "notes": "15 qubits heavy-hex 4.6 to 5.2 GHz"
+  },
+  "coordinates": [
+    {
+      "id": "q0",
+      "index": 0,
+      "x": -0.0114,
+      "y": -3.5645,
+      "role": "data",
+      "degree": 4,
+      "frequency_ghz": 4.6
+    },
+    {
+      "id": "q1",
+      "index": 1,
+      "x": -0.5599,
+      "y": -1.1061,
+      "role": "data",
+      "degree": 4,
+      "frequency_ghz": 5.2
+    },
+    {
+      "id": "q2",
+      "index": 2,
+      "x": 1.1096,
+      "y": 0.9401,
+      "role": "data",
+      "degree": 4,
+      "frequency_ghz": 4.6
+    },
+    {
+      "id": "q3",
+      "index": 3,
+      "x": 0.6751,
+      "y": 3.38,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 5.2
+    },
+    {
+      "id": "q4",
+      "index": 4,
+      "x": 0.3019,
+      "y": 5.7572,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 4.6
+    },
+    {
+      "id": "q5",
+      "index": 5,
+      "x": -0.0523,
+      "y": 8.1118,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 5.2
+    },
+    {
+      "id": "q6",
+      "index": 6,
+      "x": -0.3982,
+      "y": 10.4521,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 4.6
+    },
+    {
+      "id": "q7",
+      "index": 7,
+      "x": -0.7389,
+      "y": 12.7753,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 5.2
+    },
+    {
+      "id": "q8",
+      "index": 8,
+      "x": -1.0725,
+      "y": 15.0587,
+      "role": "data",
+      "degree": 1,
+      "frequency_ghz": 4.6
+    },
+    {
+      "id": "q9",
+      "index": 9,
+      "x": 2.4058,
+      "y": -4.0697,
+      "role": "data",
+      "degree": 3,
+      "frequency_ghz": 5.2
+    },
+    {
+      "id": "q10",
+      "index": 10,
+      "x": 4.1363,
+      "y": -2.2798,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 4.6
+    },
+    {
+      "id": "q11",
+      "index": 11,
+      "x": 3.5625,
+      "y": 0.1456,
+      "role": "data",
+      "degree": 2,
+      "frequency_ghz": 5.2
+    },
+    {
+      "id": "b_q0_q1",
+      "index": 12,
+      "x": -2.2065,
+      "y": -2.7557,
+      "role": "bridge",
+      "degree": 2,
+      "frequency_ghz": 4.8949
+    },
+    {
+      "id": "b_q0_q9",
+      "index": 13,
+      "x": 0.8377,
+      "y": -5.758,
+      "role": "bridge",
+      "degree": 2,
+      "frequency_ghz": 4.8949
+    },
+    {
+      "id": "b_q1_q2",
+      "index": 14,
+      "x": 1.5683,
+      "y": -1.1681,
+      "role": "bridge",
+      "degree": 2,
+      "frequency_ghz": 4.8949
+    }
+  ],
+  "edges": [
+    {
+      "source": "q0",
+      "target": "q1"
+    },
+    {
+      "source": "q0",
+      "target": "q9"
+    },
+    {
+      "source": "q0",
+      "target": "b_q0_q1"
+    },
+    {
+      "source": "q0",
+      "target": "b_q0_q9"
+    },
+    {
+      "source": "q1",
+      "target": "q2"
+    },
+    {
+      "source": "q1",
+      "target": "b_q0_q1"
+    },
+    {
+      "source": "q1",
+      "target": "b_q1_q2"
+    },
+    {
+      "source": "q2",
+      "target": "q3"
+    },
+    {
+      "source": "q2",
+      "target": "q11"
+    },
+    {
+      "source": "q2",
+      "target": "b_q1_q2"
+    },
+    {
+      "source": "q3",
+      "target": "q4"
+    },
+    {
+      "source": "q4",
+      "target": "q5"
+    },
+    {
+      "source": "q5",
+      "target": "q6"
+    },
+    {
+      "source": "q6",
+      "target": "q7"
+    },
+    {
+      "source": "q7",
+      "target": "q8"
+    },
+    {
+      "source": "q9",
+      "target": "q10"
+    },
+    {
+      "source": "q9",
+      "target": "b_q0_q9"
+    },
+    {
+      "source": "q10",
+      "target": "q11"
+    }
+  ],
+  "frequencies": {
+    "q0": 4.6,
+    "q1": 5.2,
+    "q2": 4.6,
+    "q9": 5.2,
+    "q3": 5.2,
+    "q4": 4.6,
+    "q5": 5.2,
+    "q6": 4.6,
+    "q7": 5.2,
+    "q10": 4.6,
+    "q11": 5.2,
+    "b_q0_q1": 4.8949,
+    "b_q0_q9": 4.8949,
+    "b_q1_q2": 4.8949,
+    "q8": 4.6
+  }
+}

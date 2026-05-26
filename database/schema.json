@@ -1,0 +1,1404 @@
+{
+  "$schema": "topo_architect_design_history",
+  "version": "1.0",
+  "designs": [
+    {
+      "design_id": "design_017323bc",
+      "timestamp": "2026-05-25T09:35:05.552782+00:00",
+      "config": {
+        "qubits": 16,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.5,
+          5.5
+        ],
+        "notes": "16 qubits heavy hex"
+      },
+      "valid": false,
+      "metrics": {
+        "connectivity_score": 1.25,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.127,
+        "crosstalk_estimate": 6.2845,
+        "frequency_collisions": 10,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q0",
+              "q1"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q0 and q1"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q1",
+              "q2"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q1 and q2"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q2",
+              "q3"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q2 and q3"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q3",
+              "q4"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q3 and q4"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q4",
+              "q5"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q4 and q5"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q5",
+              "q6"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q5 and q6"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q6",
+              "q7"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q6 and q7"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q7",
+              "q8"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q7 and q8"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q9",
+              "q10"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q9 and q10"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q10",
+              "q11"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q10 and q11"
+          }
+        ],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_1932be55",
+      "timestamp": "2026-05-25T10:06:55.853137+00:00",
+      "config": {
+        "qubits": 20,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.5,
+          5.5
+        ],
+        "notes": "I need 20 qubits in a heavy-hex layout with frequencies between 4.6 and 5.2 GHz"
+      },
+      "valid": false,
+      "metrics": {
+        "connectivity_score": 1.3,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.132,
+        "crosstalk_estimate": 9.1685,
+        "frequency_collisions": 13,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q0",
+              "q1"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q0 and q1"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q1",
+              "q2"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q1 and q2"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q2",
+              "q3"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q2 and q3"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q3",
+              "q4"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q3 and q4"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q4",
+              "q5"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q4 and q5"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q5",
+              "q6"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q5 and q6"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q6",
+              "q7"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q6 and q7"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q7",
+              "q8"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q7 and q8"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q9",
+              "q10"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q9 and q10"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q10",
+              "q11"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q10 and q11"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q11",
+              "q12"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q11 and q12"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q12",
+              "q13"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q12 and q13"
+          },
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q13",
+              "q14"
+            ],
+            "delta_mhz": 150.0,
+            "message": "\u0394f=150.0 MHz < 200 MHz between q13 and q14"
+          }
+        ],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_95424b0d",
+      "timestamp": "2026-05-25T10:19:17.584269+00:00",
+      "config": {
+        "qubits": 20,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.5,
+          5.5
+        ],
+        "notes": "20 qubits heavy hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 95.4,
+      "metrics": {
+        "connectivity_score": 1.3,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 1.443,
+        "crosstalk_estimate": 94.2225,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_5f211cc7",
+      "timestamp": "2026-05-25T10:21:46.557098+00:00",
+      "config": {
+        "qubits": 20,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.5,
+          5.5
+        ],
+        "notes": "I need 20 qubits in a heavy-hex layout with frequencies between 4.6 and 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 95.4,
+      "metrics": {
+        "connectivity_score": 1.3,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 1.443,
+        "crosstalk_estimate": 94.2225,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_8f20e39c",
+      "timestamp": "2026-05-25T10:23:55.872282+00:00",
+      "config": {
+        "qubits": 20,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.5,
+          5.5
+        ],
+        "notes": "I need 20 qubits in a heavy-hex layout with frequencies between 4.6 and 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 95.4,
+      "metrics": {
+        "connectivity_score": 1.3,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 1.443,
+        "crosstalk_estimate": 94.2225,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_8ed0117d",
+      "timestamp": "2026-05-25T10:46:40.677246+00:00",
+      "config": {
+        "qubits": 20,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "I need 20 qubits in a heavy-hex layout with frequencies between 4.6 and 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 95.4,
+      "metrics": {
+        "connectivity_score": 1.3,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 1.443,
+        "crosstalk_estimate": 94.2225,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_0f2c984b",
+      "timestamp": "2026-05-25T10:48:57.248124+00:00",
+      "config": {
+        "qubits": 12,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.5,
+          5.5
+        ],
+        "notes": "12 qubits heavy hex"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.167,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 1.155,
+        "crosstalk_estimate": 45.646,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_aa0ac546",
+      "timestamp": "2026-05-25T10:50:13.732784+00:00",
+      "config": {
+        "qubits": 20,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "I need 20 qubits in a heavy-hex layout with frequencies between 4.6 and 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 95.4,
+      "metrics": {
+        "connectivity_score": 1.3,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 1.443,
+        "crosstalk_estimate": 94.2225,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_4678375f",
+      "timestamp": "2026-05-25T11:02:48.136996+00:00",
+      "config": {
+        "qubits": 8,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.5,
+          5.5
+        ],
+        "notes": "8 qubits heavy hex"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 1.848,
+        "crosstalk_estimate": 22.411,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_328d5486",
+      "timestamp": "2026-05-25T11:03:04.968742+00:00",
+      "config": {
+        "qubits": 8,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.5,
+          5.5
+        ],
+        "notes": "8 qubits heavy hex"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 1.848,
+        "crosstalk_estimate": 22.411,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_d35a6d6d",
+      "timestamp": "2026-05-25T11:05:10.842955+00:00",
+      "config": {
+        "qubits": 4,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "I need 4 qubits in a heavy-hex layout with frequencies between 4.6 and 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 4.619,
+        "crosstalk_estimate": 10.905,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_dd032720",
+      "timestamp": "2026-05-25T11:10:36.689897+00:00",
+      "config": {
+        "qubits": 12,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.5,
+          5.5
+        ],
+        "notes": "12 qubits heavy hex"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.167,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.1,
+        "crosstalk_estimate": 3.7335,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_bb6bdb8b",
+      "timestamp": "2026-05-25T11:12:22.736599+00:00",
+      "config": {
+        "qubits": 4,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "4 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 4.619,
+        "crosstalk_estimate": 10.905,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_63bca31f",
+      "timestamp": "2026-05-25T11:13:01.771281+00:00",
+      "config": {
+        "qubits": 15,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "15 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.2,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.114,
+        "crosstalk_estimate": 5.4487,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_b9d16354",
+      "timestamp": "2026-05-26T03:42:32.284970+00:00",
+      "config": {
+        "qubits": 7,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "7 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 3.233,
+        "crosstalk_estimate": 15.9372,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_cf95b12d",
+      "timestamp": "2026-05-26T03:47:31.758186+00:00",
+      "config": {
+        "qubits": 9,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "9 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.163,
+        "crosstalk_estimate": 2.2563,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_6c275df7",
+      "timestamp": "2026-05-26T03:53:46.426006+00:00",
+      "config": {
+        "qubits": 11,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "11 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.091,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.103,
+        "crosstalk_estimate": 3.1245,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_c7e164d6",
+      "timestamp": "2026-05-26T04:00:14.134004+00:00",
+      "config": {
+        "qubits": 9,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "9 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.164,
+        "crosstalk_estimate": 2.2562,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_58797cdf",
+      "timestamp": "2026-05-26T04:01:05.661824+00:00",
+      "config": {
+        "qubits": 4,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "4 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 4.619,
+        "crosstalk_estimate": 10.905,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_30304909",
+      "timestamp": "2026-05-26T04:03:46.855409+00:00",
+      "config": {
+        "qubits": 11,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "11 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.091,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.089,
+        "crosstalk_estimate": 3.1199,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_ac964477",
+      "timestamp": "2026-05-26T04:08:08.082628+00:00",
+      "config": {
+        "qubits": 20,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "20 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.3,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.117,
+        "crosstalk_estimate": 9.1495,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_bba8a549",
+      "timestamp": "2026-05-26T04:12:18.905372+00:00",
+      "config": {
+        "qubits": 6,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "6 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 3.464,
+        "crosstalk_estimate": 14.2594,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_90ca95e4",
+      "timestamp": "2026-05-26T04:13:46.415533+00:00",
+      "config": {
+        "qubits": 4,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "4 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 4.619,
+        "crosstalk_estimate": 10.905,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_c86762cf",
+      "timestamp": "2026-05-26T04:23:40.497304+00:00",
+      "config": {
+        "qubits": 7,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "7 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 3.233,
+        "crosstalk_estimate": 15.9372,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_c5c4a5b9",
+      "timestamp": "2026-05-26T04:25:00.270192+00:00",
+      "config": {
+        "qubits": 6,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "6 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 3.464,
+        "crosstalk_estimate": 14.2594,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_e2a1f677",
+      "timestamp": "2026-05-26T04:28:15.616188+00:00",
+      "config": {
+        "qubits": 9,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "9 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 97.8,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.856,
+        "crosstalk_estimate": 21.7189,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_120c2ea3",
+      "timestamp": "2026-05-26T04:28:43.627922+00:00",
+      "config": {
+        "qubits": 4,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "4 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 4.619,
+        "crosstalk_estimate": 10.905,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_c49e90c4",
+      "timestamp": "2026-05-26T04:32:07.669083+00:00",
+      "config": {
+        "qubits": 9,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "9 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 97.8,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.856,
+        "crosstalk_estimate": 21.7189,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_c0ae2c3b",
+      "timestamp": "2026-05-26T04:33:02.835392+00:00",
+      "config": {
+        "qubits": 6,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "6 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 3.464,
+        "crosstalk_estimate": 14.2594,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_fa2107cd",
+      "timestamp": "2026-05-26T04:33:47.775608+00:00",
+      "config": {
+        "qubits": 4,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "4 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 4.619,
+        "crosstalk_estimate": 10.905,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_0c8c09d5",
+      "timestamp": "2026-05-26T04:35:48.286483+00:00",
+      "config": {
+        "qubits": 7,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "7 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 3.233,
+        "crosstalk_estimate": 15.9372,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_48d66bb9",
+      "timestamp": "2026-05-26T04:40:36.913849+00:00",
+      "config": {
+        "qubits": 7,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "7 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 3.233,
+        "crosstalk_estimate": 15.9372,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_6a19f680",
+      "timestamp": "2026-05-26T04:42:23.439511+00:00",
+      "config": {
+        "qubits": 9,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "9 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 96.9,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 1.732,
+        "crosstalk_estimate": 24.1406,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_2b8b7000",
+      "timestamp": "2026-05-26T04:43:58.323242+00:00",
+      "config": {
+        "qubits": 7,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "7 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 3.233,
+        "crosstalk_estimate": 15.9372,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_29aa7be3",
+      "timestamp": "2026-05-26T04:44:10.781170+00:00",
+      "config": {
+        "qubits": 4,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "4 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.0,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 4.619,
+        "crosstalk_estimate": 10.905,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_eaf26e0c",
+      "timestamp": "2026-05-26T04:52:11.392772+00:00",
+      "config": {
+        "qubits": 7,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "7 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.143,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.272,
+        "crosstalk_estimate": 1.6657,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_7b965400",
+      "timestamp": "2026-05-26T04:53:16.612355+00:00",
+      "config": {
+        "qubits": 9,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "9 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.111,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.166,
+        "crosstalk_estimate": 2.2562,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_2d1719da",
+      "timestamp": "2026-05-26T04:53:55.723867+00:00",
+      "config": {
+        "qubits": 5,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "5 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": false,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.2,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.33,
+        "crosstalk_estimate": 1.1278,
+        "frequency_collisions": 1,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q0",
+              "q2"
+            ],
+            "delta_mhz": 0.0,
+            "message": "Frequency crowding: q0\u2194q2 \u0394f=0.0 MHz (need \u2265 200 MHz between coupled qubits)"
+          }
+        ],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_26655b26",
+      "timestamp": "2026-05-26T04:56:18.963317+00:00",
+      "config": {
+        "qubits": 20,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "20 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.4,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.134,
+        "crosstalk_estimate": 9.1946,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_7b43f9e9",
+      "timestamp": "2026-05-26T04:57:19.388132+00:00",
+      "config": {
+        "qubits": 5,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "5 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": false,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.2,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.33,
+        "crosstalk_estimate": 1.1278,
+        "frequency_collisions": 1,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q0",
+              "q2"
+            ],
+            "delta_mhz": 0.0,
+            "message": "Frequency crowding: q0\u2194q2 \u0394f=0.0 MHz (need \u2265 200 MHz between coupled qubits)"
+          }
+        ],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_8d4cf4c4",
+      "timestamp": "2026-05-26T04:57:37.738494+00:00",
+      "config": {
+        "qubits": 7,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "7 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.143,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.272,
+        "crosstalk_estimate": 1.6657,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_be77774b",
+      "timestamp": "2026-05-26T05:17:21.411796+00:00",
+      "config": {
+        "qubits": 4,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "4 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": false,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.25,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.404,
+        "crosstalk_estimate": 0.8606,
+        "frequency_collisions": 1,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [
+          {
+            "type": "frequency_collision",
+            "nodes": [
+              "q0",
+              "q2"
+            ],
+            "delta_mhz": 0.0,
+            "message": "Frequency crowding: q0\u2194q2 \u0394f=0.0 MHz (need \u2265 200 MHz between coupled qubits)"
+          }
+        ],
+        "spatial_issues": []
+      }
+    },
+    {
+      "design_id": "design_efae76b3",
+      "timestamp": "2026-05-26T05:26:33.494275+00:00",
+      "config": {
+        "qubits": 9,
+        "lattice_type": "heavy_hex",
+        "dimensions": null,
+        "freq_range": [
+          4.6,
+          5.2
+        ],
+        "notes": "9 qubits heavy-hex 4.6 to 5.2 GHz"
+      },
+      "valid": true,
+      "rl_score": 99.5,
+      "metrics": {
+        "connectivity_score": 1.111,
+        "connectivity_target": 3.0,
+        "connectivity_ok": false,
+        "layout_density": 0.166,
+        "crosstalk_estimate": 2.2562,
+        "frequency_collisions": 0,
+        "spatial_crosstalk_flags": 0,
+        "freq_issues": [],
+        "spatial_issues": []
+      }
+    }
+  ]
+}
